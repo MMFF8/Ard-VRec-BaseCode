@@ -16,10 +16,10 @@ When an initializer is detected, recognition values shift from the initializer g
 Serial.write(X);
 CG=Y;
 ```
-where X = 0x12, 0x13, 0x14, or 0x15, depending on what subgroup you're going to use<br>
-&nbsp;&nbsp;(0x12 = subgroup 1, 0x13 = subgroup 2, etc.)<br>
-where Y = the number of the group to be used<br>
-&nbsp;&nbsp;(group = subgroup number + 1)<br>
+>where X = 0x12, 0x13, 0x14, or 0x15, depending on what subgroup you're going to use<br>
+*&nbsp;&nbsp;(0x12 = subgroup 1, 0x13 = subgroup 2, etc.)*<br>
+>where Y = the number of the group to be used<br>
+*&nbsp;&nbsp;(group = subgroup number + 1)*<br>
 <br>
 Incase you didn't quite catch that, it essentially means: <br>
   
