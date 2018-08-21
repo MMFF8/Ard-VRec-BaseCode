@@ -21,7 +21,7 @@ where X = 0x12, 0x13, 0x14, or 0x15, depending on what subgroup you're going to 
 where Y = the number of the group to be used<br>
 &nbsp;&nbsp;(group = subgroup number + 1)<br>
 <br>
-&nbsp; ex.
+Incase you didn't quite catch that, it essentially means: <br>
   
     Intializer 1 -> Check input using subgroup 1
     Intializer 2 -> Check input using subgroup 2
