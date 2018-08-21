@@ -37,7 +37,7 @@ CG=1;
 ```
 these lines are what make you start checking for initializers again
 
-# What this Actually Means
+# Essentially
 
 The Arduino will check for any of the initializers. After calling one, voice recognition will match input with whatever you have recorded in its corresponding subgroup on the next go. <br>
 &nbsp; ex.<br>
