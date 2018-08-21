@@ -41,8 +41,8 @@ these lines are what make you start checking for initializers again
 
 The Arduino will check for any of the initializers. After calling one, voice recognition will match input with whatever you have recorded in its corresponding subgroup on the next go. <br>
 &nbsp; ex.<br>
-```&nbsp;&nbsp;--Recording--<br>
-"Alexa" -> initializer1<br>
-&nbsp;&nbsp;--Switch to subgroup1--<br>
-"This is so sad. Alexa, play Despacito" -> subgroup1.command1<br>
-&nbsp;&nbsp;--Switch to back to group1--```
+>&nbsp;&nbsp;--Recording--<br>
+>"Alexa" -> initializer1<br>
+>&nbsp;&nbsp;--Switch to subgroup1--<br>
+>"This is so sad. Alexa, play Despacito" -> subgroup1.command1<br>
+>&nbsp;&nbsp;--Switch to back to group1--
