@@ -28,14 +28,14 @@ Each subgroup has 5 possible commands, they can do whatever, as long as they alw
 Serial.write(0x11);
 CG=1;
 ```
-this line is what makes you start checking group 1 again
+these lines are what make you start checking for initializers again
 
 # What This Actually Means
 
-The arduino will check for any of the initializers. After calling one, voice recognition will match input with whatever you have recorded in its corresponding subgroup on the next go.
-  ex.
-  --Recording--
-  "Alexa" -> initializer1
-  --Switch to subgroup1--
-  "This is so sad, play Despacito" -> subgroup1.command1
+The Arduino will check for any of the initializers. After calling one, voice recognition will match input with whatever you have recorded in its corresponding subgroup on the next go. <br>
+&nbsp; ex.<br>
+  --Recording--<br>
+  "Alexa" -> initializer1<br>
+  --Switch to subgroup1--<br>
+  "This is so sad, play Despacito" -> subgroup1.command1<br>
   --Switch to back to group1--
