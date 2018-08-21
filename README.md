@@ -1,16 +1,5 @@
-# Initializers
-Uses group 1 as an initializer group, each command in group 1 shifts recognition values from group 1 to the corresponding group
-
-&nbsp; ex.
-  
-    Group 1 command 1 -> Switch to group 2
-    Group 1 command 2 -> Switch to group 3
-    Group 1 command 3 -> Switch to group 4
-    Group 1 command 4 -> Switch to group 5
-    Group 1 command 5 can't exist given the module's 5 group limit...
-    
-    
-*-Group 1 will be called the Initializer group. It's composed of initializers* <br>
+# Terminologies
+##-Group 1 will be called the Initializer group. It's composed of initializers* <br>
   &nbsp; (Initializer group{initializer1,initializer2,initializer3,initializer4,initializer5})
 
 *-Groups 2-5 will be called subgroups. Subgroups are numbered based on the commands they're prescribed to* <br>
@@ -21,6 +10,15 @@ Uses group 1 as an initializer group, each command in group 1 shifts recognition
   &nbsp; subgroup 2{command1,command2,command3,command4,command5}, <br>
   &nbsp; etc.)
 
+# Initializers
+When an initializer is detected, recognition values shift from the initializer group to the corresponding subgroup of the afformentioned initializer <br>
+&nbsp; ex.
+  
+    Intializer 1 -> Check input using subgroup 1
+    Intializer 2 -> Check input using subgroup 2
+    Intializer 3 -> Check input using subgroup 3
+    Intializer 4 -> Check input using subgroup 4
+    Intializer 5 can't have it's own subgroup given the module's 5 group limit...
 
 # Commands
 Each subgroup has 5 possible commands, they can do whatever, as long as they always end in:
@@ -35,7 +33,7 @@ these lines are what make you start checking for initializers again
 The Arduino will check for any of the initializers. After calling one, voice recognition will match input with whatever you have recorded in its corresponding subgroup on the next go. <br>
 &nbsp; ex.<br>
   --Recording--<br>
-  "Alexa" -> initializer1<br>
+  &nbsp;&nbsp; "Alexa" -> initializer1<br>
   --Switch to subgroup1--<br>
-  "This is so sad, play Despacito" -> subgroup1.command1<br>
+  &nbsp;&nbsp; "This is so sad. Alexa, play Despacito" -> subgroup1.command1<br>
   --Switch to back to group1--
