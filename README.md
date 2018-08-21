@@ -44,6 +44,6 @@ The Arduino will check for any of the initializers. After calling one, voice rec
 >&nbsp;&nbsp;--Recording--<br>
 >"Alexa" -> initializer1<br>
 >&nbsp;&nbsp;--Switch to subgroup1--<br>
->"This is so sad. Alexa, play Despacito" -> subgroup1.command1<br>
+>"play Despacito" -> subgroup1.command1<br>
 >&nbsp;&nbsp;--Do something--<br>
 >&nbsp;&nbsp;--Switch to back to group1--
