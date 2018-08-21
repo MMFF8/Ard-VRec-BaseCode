@@ -8,10 +8,10 @@ Uses group 1 as an initializer group, each command in group 1 shifts recognition
     Group 1 command 5 can't exist given the module's 5 group limit...
     
 *-Group 1 will be called the Initializer group. It's composed of initializers
-  (Initializer group{initializer1,initializer2,initializer3,initializer4,initializer5})
+  (Initializer group{initializer1,initializer2,initializer3,initializer4,initializer5})*
 *-Groups 2-5 will be called subgroups. Subgroups are numbered based on the commands they're prescribed to
   (group 2 = subgroup 1, group 3 = subgroup 2, etc.)
-and are composed of commands
+and are composed of commands*
   (subgroup 1{command1,command2,command3,command4,command5}, subgroup 2{command1,command2,command3,command4,command5}, etc.)
 
 
