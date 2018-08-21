@@ -37,7 +37,7 @@ CG=1;
 ```
 these lines are what make you start checking for initializers again
 
-# What This Actually Means
+# What this Actually Means
 
 The Arduino will check for any of the initializers. After calling one, voice recognition will match input with whatever you have recorded in its corresponding subgroup on the next go. <br>
 &nbsp; ex.<br>
@@ -45,4 +45,5 @@ The Arduino will check for any of the initializers. After calling one, voice rec
 >"Alexa" -> initializer1<br>
 >&nbsp;&nbsp;--Switch to subgroup1--<br>
 >"This is so sad. Alexa, play Despacito" -> subgroup1.command1<br>
+>&nbsp;&nbsp;--Do something--<br>
 >&nbsp;&nbsp;--Switch to back to group1--
