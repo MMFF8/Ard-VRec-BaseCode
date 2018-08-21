@@ -1,11 +1,11 @@
 # Terminologies
-##-Group 1 will be called the Initializer group. It's composed of initializers* <br>
+**-Group 1 will be called the Initializer group. It's composed of initializers** <br>
   &nbsp; (Initializer group{initializer1,initializer2,initializer3,initializer4,initializer5})
 
-*-Groups 2-5 will be called subgroups. Subgroups are numbered based on the commands they're prescribed to* <br>
+**-Groups 2-5 will be called subgroups. Subgroups are numbered based on the commands they're prescribed to** <br>
   &nbsp; (group 2 = subgroup 1, group 3 = subgroup 2, etc.)
   
-*and are composed of commands* <br>
+**and are composed of commands** <br>
   &nbsp; (subgroup 1{command1,command2,command3,command4,command5}, <br>
   &nbsp; subgroup 2{command1,command2,command3,command4,command5}, <br>
   &nbsp; etc.)
@@ -32,8 +32,8 @@ these lines are what make you start checking for initializers again
 
 The Arduino will check for any of the initializers. After calling one, voice recognition will match input with whatever you have recorded in its corresponding subgroup on the next go. <br>
 &nbsp; ex.<br>
-  --Recording--<br>
-  &nbsp;&nbsp; "Alexa" -> initializer1<br>
-  --Switch to subgroup1--<br>
-  &nbsp;&nbsp; "This is so sad. Alexa, play Despacito" -> subgroup1.command1<br>
-  --Switch to back to group1--
+&nbsp;&nbsp;--Recording--<br>
+"Alexa" -> initializer1<br>
+&nbsp;&nbsp;--Switch to subgroup1--<br>
+"This is so sad. Alexa, play Despacito" -> subgroup1.command1<br>
+&nbsp;&nbsp;--Switch to back to group1--
