@@ -1,7 +1,7 @@
 # Initializers
 Uses group 1 as an initializer group, each command in group 1 shifts recognition values from group 1 to the corresponding group
 
-&nbsp;ex.
+&nbsp; ex.
   
     Group 1 command 1 -> Switch to group 2
     Group 1 command 2 -> Switch to group 3
@@ -11,14 +11,15 @@ Uses group 1 as an initializer group, each command in group 1 shifts recognition
     
     
 *-Group 1 will be called the Initializer group. It's composed of initializers* <br>
-  &nbsp;(Initializer group{initializer1,initializer2,initializer3,initializer4,initializer5})
+  &nbsp; (Initializer group{initializer1,initializer2,initializer3,initializer4,initializer5})
 
 *-Groups 2-5 will be called subgroups. Subgroups are numbered based on the commands they're prescribed to* <br>
-  &nbsp;(group 2 = subgroup 1, group 3 = subgroup 2, etc.)
+  &nbsp; (group 2 = subgroup 1, group 3 = subgroup 2, etc.)
   
 *and are composed of commands* <br>
-  &nbsp;(subgroup 1{command1,command2,command3,command4,command5}, <br>
-  &nbsp;subgroup 2{command1,command2,command3,command4,command5}, etc.)
+  &nbsp; (subgroup 1{command1,command2,command3,command4,command5}, <br>
+  &nbsp; subgroup 2{command1,command2,command3,command4,command5}, <br>
+  &nbsp; etc.)
 
 
 # Commands
