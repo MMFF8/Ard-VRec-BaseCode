@@ -4,13 +4,9 @@ Uses group 1 as an initializer group, each command in group 1 shifts recognition
   ex.
   
     Group 1 command 1 -> Switch to group 2
-    
     Group 1 command 2 -> Switch to group 3
-    
     Group 1 command 3 -> Switch to group 4
-    
     Group 1 command 4 -> Switch to group 5
-    
     Group 1 command 5 can't exist given the module's 5 group limit...
     
     
