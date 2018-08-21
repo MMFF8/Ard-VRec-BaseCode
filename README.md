@@ -2,6 +2,7 @@
 Uses group 1 as an initializer group, each command in group 1 shifts recognition values from group 1 to the corresponding group
 
   ex.
+  
     Group 1 command 1 -> Switch to group 2
     
     Group 1 command 2 -> Switch to group 3
